@@ -176,7 +176,7 @@ namespace ModbusDataAcquisition
             voltageChart.ChartAreas[0].AxisX.Maximum = 120;
             voltageChart.ChartAreas[0].AxisX.Minimum = 0;
             voltageChart.ChartAreas[0].AxisX.Interval = 6;
-            voltageChart.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dot;
+            voltageChart.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dot;//虚线
             voltageChart.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = ChartDashStyle.Dot;
             voltageChart.Series["CH1"].Points.AddXY(0, 0);
 
